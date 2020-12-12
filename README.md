@@ -1,3 +1,3 @@
 # CSS-project
-CSS3 projects
+CSS3 projects.
 Used Html5 and CSS3....
