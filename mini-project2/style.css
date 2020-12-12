@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*body css*/
+body{
+    background: linear-gradient(to bottom left, rgba(128,128,128,0.1),rgba(128,128,128,1));
+    padding: 60px 0 40px;
+}
+/*maindiv css*/
+.maindiv{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 5px -5px 5px 5px rgb(177, 175, 175);
+}
+/* images css */
+.maindiv img{
+    width: 100%;
+}
+/*emertxe logo*/
+.emertxe{
+    width: 30%;
+    margin: 30px 35%;
+}
+/*clips css*/
+#clip{
+    position: absolute;
+    left: 25%;
+    top:0;
+}
+#clip2{
+    position: absolute;
+    left: 70%;
+    top: 0;
+}

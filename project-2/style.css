@@ -1,0 +1,1690 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+/* Nav Bar starts here */
+nav{
+  background: rgb(2, 2, 100);
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+/* Logo of the company */
+.logo1{ 
+  color:white;
+  float:left;
+  font-weight: bold;
+  margin-top: 1vw;
+  margin-left: 7vw;
+  font-size: 4vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Company name */
+.cc1{
+  color:white;
+  float:left;
+  padding-top: 1.3vw;
+  margin-left: 0.5vw;
+  font-size: 1.8vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 1vw;
+}
+/* All the navlinks and there styling starts here */
+nav ul{
+  float: right;
+  margin-right: 5vw;
+}
+nav ul li{
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  line-height: 6vw;
+  margin: 0 0px;
+}
+nav ul li a{
+  color: white;
+  font-size: 0.9vw;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+/* Hover effect on the navbar links */
+a.active,a:hover{
+  background: orange;
+  transition: .5s;
+}
+/*Creation of toggle bar*/
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+/* Undisplaying the checkbox */
+#check{
+  display: none;
+}
+/* Quotes of a company */
+.titleandquote{
+  width:100%;
+  height:580px;
+  background-color: rgb(2, 2, 100);
+  
+}
+/*title section starts here*/
+.title{
+  width:50%;
+  height: auto;
+  float:left;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top:5vw;
+  padding-left: 7vw;
+  margin-top: 6vw;
+}
+/* Paragrapgh under the big title*/
+.title>p{
+  font-size:1.3vw;
+}
+/*title which as highest font size*/
+.title>h1{
+  font-size:3vw;
+}
+/* Fontawsome icons in title */
+.apple,.gplay{
+  font-size:1vw;
+  float:left;
+  border: 1px solid orange;
+  padding:1vw;
+  border-radius: 5px;
+  width: 30%
+}
+.gplay{
+  margin-left: 2vw;
+}
+.fa-apple,.fa-android{
+font-size: 2vw;
+float: left;
+margin-right:1vw;
+}
+/* Registration form section */
+.freeregistration{
+  margin-top:6vw;
+  height: 450px;
+  width:50%;
+  float:right;
+  background-color: rgb(2, 2, 100);
+}
+/* Fieldset for form */
+fieldset{
+  border:1px solid rgb(192, 192, 192);
+}
+.freeregistration>form>fieldset{
+  padding: 2vw;
+  height:10%;
+background-color: rgb(219, 218, 218);
+width: 100%;
+}
+input{
+  padding:1vw;
+}
+/* Button under a form */
+input[value="OPEN ACCOUNT"]
+{
+  font-size:1vw;
+  border:1px solid orange;
+}
+.freeregistration>form{
+  padding:2vw;
+  width:65%;
+  margin-left: 13vw;
+  margin-top: 2.5vw;
+}
+/*Placeholder under input type*/
+.firstname,.lastname,.email,.phone ::placeholder{
+  font-size:1vw;
+  padding-left: 1vw;
+}
+.phone::placeholder{
+  font-size:1vw;
+}
+/* Free registration title */
+.freeregistration>form>p{
+  color:white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1vw;
+
+}
+.freeregistration>form>fieldset>.firstname{
+  width:50%;
+  height:40px;
+}
+.freereg{
+  font-weight:bold;
+  font-size: 1.2vw;
+}
+.freeregistration>form>fieldset>.lastname{
+  width:45%;
+  height:40px;
+}
+.freeregistration>form>fieldset>.email,.freeregistration>form>fieldset>.phone{
+  width:95%;
+  height:40px;
+}
+/* select element under form */
+.freeregistration>form>fieldset>input,select{
+  width:95%;
+  height:40px;
+}
+/* Accept terms and condition */
+.accept{
+  font-size:1vw;
+}
+/* Six cryptocurrency section */
+.one,.two,.three,.four,.five,.six{
+  width: 16.5%;
+  display:block;
+  color:orange;
+  height:10vw;
+  background-color: white;
+  float: left;
+  border-right:0.1px solid rgb(219, 211, 211);;
+}
+.six>i{
+  margin-left: 6vw;
+}
+.six{
+  border-right: none;
+}
+/* Assigning icons of crypto currency symbol */
+.one,.two,.three,.four,.five,.six>i{
+  text-align: center;
+  padding-top:3vw;
+  font-size: 3vw;
+}
+.one>i>p,.two>i>p,.three>i>p,.four>i>p,.five>i>p,.six>i>p{
+  padding-top: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1vw;
+  color:black;
+}
+/* About us section starts here */
+.aboutus{
+  margin-top:14vw;
+  height: 20vw;
+}
+/* Paragrapgh under about us section */
+.aboutus>p{
+  font-size:1.5vw;
+  color:black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+/* First division in about us section */
+.aboutusone{
+  margin-left: 4vw;
+  width:45%;
+  margin-top: 3vw;
+  float:left;
+  text-align: justify;
+  padding:2vw;
+  color:grey;
+  font-size: 1vw;
+}
+/*Second division under about us section*/
+.aboutustwo{
+  margin-top: 3vw;
+  width:45%;
+  float:left;
+  padding:2vw;
+  font-weight: bold;
+  font-size: 1.3vw;
+}
+/* Easy to buy crypto currency section starts here */
+.easytobuy{
+    height:20vw;
+}
+/* Easy to buy heading */
+.easytobuy>h2{
+  padding-top: 3vw;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5vw;
+}
+/* Number styling */
+.num{
+font-size: 3vw;font-weight: bold;font-family: Arial, Helvetica, sans-serif;float: left;}
+.register,.deposit,.buyandsell{
+  width:33.2%;
+  padding-left: 10vw;
+  padding-top: 6vw;
+  float: left;
+}
+.number1{
+  float:left;
+}
+.reg1{
+  float: left;
+  font-size: 1.2vw;
+   font-family: Arial, Helvetica, sans-serif;
+}
+/* Fontawsome icon */
+.arrowright{
+  float:right;
+  font-size: 3vw;
+}
+/* Why choose us section */
+.whychooseus{
+  font-size:1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 3vw;
+  font-weight: bold;
+  background-color: rgb(219, 218, 218);
+  height:5vw;
+  padding-top: 4vw;
+}
+/* Each block of features */
+.fair,.fast,.secure,.multicoin,.onlinepayment,.legal,.commisions,.withdraw{
+  float:left;
+  width:25%;
+  height:24vw;
+  background-color:  rgb(219, 218, 218);
+}
+/* Font awsome icons for the respective features */
+  .fair>.icons>i,.fast>.icons>i,.secure>.icons>i,.multicoin>.icons>i,.onlinepayment>.icons>i,.legal>.icons>i,.commisions>.icons>i
+  {
+    font-size: 4vw;
+    -webkit-text-stroke-color: orange;
+     color:transparent;
+     -webkit-text-stroke-width: 0.2vw;
+      margin-top: 1vw;
+    }
+    .withdraw>i{
+      padding-left:12vw;
+      font-size: 4vw;
+    -webkit-text-stroke-color: orange;
+     color:transparent;
+     -webkit-text-stroke-width: 0.2vw;
+     margin-top:1vw;
+    }
+/* description of each feature*/
+.fair,.fast,.secure,.multicoin,.onlinepayment,.legal,.commisions,.withdraw>p{
+  text-align: center;
+  padding-top: 5vw;
+  padding-left:3vw;
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.lorem{
+  font-size:1vw;
+  color:rgba(0, 0, 0, 0.644);
+  padding-right: 2vw;
+  padding-top:2vw;
+}
+.withdraw>.lorem{
+  font-size:1vw;
+  color:rgba(0, 0, 0, 0.644);
+  padding-right: 2vw;
+  padding-top:2vw;
+}
+/* How to buy and sell cryptocurrency section  starts here*/
+.btc{
+  width:42%;
+  height:20vw;
+  margin-top:7vw;
+  margin-left:5vw;
+  float:left;
+  border-radius: 10px;
+}
+/* Video on the fist division */
+video[poster]{
+  object-fit: cover;
+}
+/* Description on the second division */
+.howtobuysell{
+margin-top: 7vw;
+border:1x solid black;
+width:48%;
+height:20vw;
+float: right;
+
+}
+/* Title */
+.howtobuysell>h3{
+  font-size: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Description para about how to buy and sell */
+.howtobuysell>p{
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color:grey;
+  padding-right:3vw;
+}
+/* Create your portfolio section starts here*/
+.portfolio>h3{
+  margin-top:80vw;
+  padding-top: 3vw;
+  height:7vw;
+  width:100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(219, 218, 218);
+  font-size: 1.5vw;
+  text-align: center;
+}
+/* Portfolio features */
+.portfolios{
+  float:left;
+  width:37%;
+  height:40vw;
+  background-color:rgb(219, 218, 218);
+}
+/* Manage portfolio , vault, mobile app */
+.manage>i{
+  font-size:2vw;
+  margin-left:6vw;
+  border-radius:50%;
+  margin-top: 2.5vw;
+  height:4vw;
+  width:4vw;
+  padding:1vw;
+  background-color: orange;
+  float:left;
+}
+/* size of all font awsome icons related to portfolio features */
+.manage>i>.fa-mobile-alt{
+  font-size:7vw;
+}
+/* Heading of all features */
+.manage>h5{
+  font-size: 1.2vw;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 4vw;
+  padding-left:11vw;
+}
+/* Description about all features under portfolio */
+.manage>p{
+  padding-top: 2vw;
+  padding-left:6vw;
+  color:grey;
+  font-size:1vw;
+  font-family:Arial, Helvetica, sans-serif;
+}
+/* Sample dashboard image */
+.dashboard{
+  background-color: rgb(219, 218, 218);
+  width:63%;
+  height:40vw;
+  float:right;
+  padding-top: 3vw;
+  padding-left: 5vw;
+
+}
+.dashboard>img{
+height:30vw; width:51vw; padding-left: 1vw;}
+
+/* Buy crypto currency section starts here */
+.buycryptocurrency{
+  margin-top:40vw;
+  width:100%;
+  height:40vw;
+}
+/* Buy cryptocurrency heading */
+.buycryptocurrency>h2{
+text-align:center;
+font-family: Arial, Helvetica, sans-serif;
+padding-top:5vw;
+font-size:1.5vw;
+}
+/* Subheading */
+.buycryptocurrency>h4{
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top:3vw;
+  font-size:1vw;
+  }
+  /* Description */
+.buycryptocurrency>p{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:1vw;
+    color:grey;
+    font-size: 1vw;
+}
+/* Buy now button */
+.buynow{
+  background-color: black;
+  color:white;
+  margin-left: 46%;
+  margin-top:2vw;
+  border:1px solid black;
+}
+/* Convertion area */
+.convert{
+  margin-top:5vw;
+  margin-left:25%;
+  width:50%;
+  height:7vw;
+  background-color:grey;
+  border-radius:10px;
+} 
+/* Input text area */
+.btcone{
+  margin-top: 1.7vw;
+  width:30%;
+  margin-left: 2vw;
+  border-radius: 10px;
+  border: 1px solid white;
+  
+}
+.btcusd{
+  width:15%;
+  border-radius:10px;
+  border: 1px solid white;
+}
+/* placeholder for 1st input text */
+input[placeholder="1"]{
+  font-size: 1vw;  
+}
+/* placeholder for 2nd input text  */
+input[placeholder="856413.00"]{
+  font-size: 1vw;
+
+}
+/* placeholder for 3d input text */
+input[placeholder="USD"]{
+  font-size: 1vw;
+  font-weight: bold;
+
+  color: black;
+}
+.btcone::placeholder{
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+.btcusd::placeholder{
+  color:black;
+  text-align: center;
+  font-weight: bold;
+}
+/* BTC */
+.btcname{
+  font-size:1.5vw;
+  color:black;
+  padding-top: 2vw;
+  margin-left: 1vw;
+  font-weight: bold;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Buy now buttton */
+.buycryptocurrency>input[value="Buy Now"]{
+  background-color: black;
+  border:1px solid black;
+  color:white;
+  font-size:1vw;
+  padding:1vw 3vw;
+  margin-left:45%;
+  margin-top:3vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.buycryptocurrency>.tradeon{
+  font-size: 1.5vw;
+  color: black;
+}
+/* Enter mobile number input type text */
+.mob{
+  border-radius: 5px;
+  width:25%;
+  margin-left: 34%;
+  border: 1px solid orange;
+}
+/* Placeholder for mobile number text box */
+input[placeholder="Enter Your Mobile Number"]
+{
+  font-size: 1vw;
+}
+/* Get started button */
+input[value="Get Started"]{
+  font-size: 1vw;
+}
+.getstart{
+  background-color: black;
+  color:white;
+  width:10%;
+  border-radius: 5px;
+  font-weight: bold;
+  border:1px solid black;
+}
+/* Achievements section starts here */
+.achievements{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top:15vw;
+  height:15vw;
+  width:100%;
+  background-color: orange;
+}
+/* Description about achievements */
+.achievements>h2{
+  text-align: center;
+  color:white;
+  font-size: 1.5vw;
+  font-family:Arial, Helvetica, sans-serif;
+}
+/* Testimonial section starts here*/
+.testimonial{
+  width:100%;
+  height:25vw;
+}
+form>.slide{
+  margin-left: 9vw;
+}
+/* Testimonial heading */
+.testimonial>h3{
+  padding-top:4vw;
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+}
+/* First sample testimonial */
+.testimonial>.test1{
+  padding-top: 1vw;
+  padding-left:4vw;
+  width:60%;
+  float:left;
+  height:10vw;
+}
+/* Name of person  */
+.testimonial>.test2{
+  width:40%;
+  float:left;
+  height:15vw;
+}
+/* Testimonial description */
+.testimonial>.test1>p{
+  word-spacing: 0.5vw;
+  padding:4vw;
+  font-style: italic;
+  font-weight:bold;
+  font-size:1.5vw;
+  font-family:Arial, Helvetica, sans-serif
+}
+/* Author name */
+.test2{
+  font-size:1.2vw;
+  padding:5vw;
+  padding-left:15vw;
+}
+/* Font awsome icon representing the author of testimonial */
+.test2>i{
+  font-size:1vw;
+  padding-left:1vw;
+  margin-left: 4.5vw;
+  padding-top: 1vw;
+background-color: orange;
+  border-radius:50%;
+  height: 3vw;
+  color: white;
+  width:3vw;
+}
+/*name*/
+.test2>p{
+  margin-left: 2.5vw;
+  padding-top: 0.5vw;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+/* Bit coin buyer */
+.bitcoinbuyer{
+  font-size: 0.8vw;
+  color:grey;
+  padding-left:1.3vw
+}
+/* Frequently asked question section starts here */
+.faq{
+  margin-top: 5vw;
+  width:100%;
+  height:40vw;
+  background-color: rgb(219, 218, 218);
+}
+/* faq heading */
+.faq>h2{
+  padding-top:4vw;
+  text-align:center;
+  font-size:1.5vw;
+  height:2vw;
+  font-family:Arial, Helvetica, sans-serif;
+}
+/* All Faq queston */
+.ico{
+  border:5px solid orange;
+  background-color:orange ;
+  width:85%;
+  margin-top:1vw;
+  padding-top: 1vw;
+  margin-left: 7vw;
+  font-family: Arial, Helvetica, sans-serif;
+  pointer-events:none;
+}
+.ico>h4{
+  height:1vw;
+  float: left;
+  font-size:1.3vw;
+  padding-top:0.4vw;
+  padding-left: 2vw;
+  background-color:orange ;
+}
+/* Description or answer for all faq */
+.ico>p{
+  padding:2.5vw;
+  padding-left:2vw;
+  display: none;
+  font-size:1.3vw;
+}
+/* Arrow icons */
+.ico>i{
+font-size:2vw;
+float:right;
+cursor: pointer;
+padding-top:0vw;
+margin-right: 2vw;
+transform: rotate(180deg);
+pointer-events: auto;
+}
+/* Hover effect on arrow icons */
+div.ico:hover{
+  background-color:rgb(219, 218, 218);
+}
+
+.ico>i:hover{
+  transform: rotate(360deg);
+}
+
+.ico>i:hover~p{
+display: block;
+background-color:rgb(219, 218, 218);
+}
+.ico>i:hover+h4{
+background-color: rgb(219, 218, 218);
+}
+/* Contact us page starts here */
+.contactus>h4{
+  font-size:1.5vw;
+  text-align:center;
+  padding-top:4vw;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 4vw;
+}
+/* Contact us input types */
+.contactus>input{
+  width:40vw;
+  margin-left: 30%;
+  margin-top: 1vw;
+  border:none;
+  border-bottom: 1px solid orange;
+  
+}
+/* Submit button */
+.contactus>input[type="button"]{
+width:10%; margin-left: 45%;background-color: black; color:white;border-bottom: none;}
+input[placeholder="Write Message Here.."]{
+padding-bottom: 5vw
+}
+/* Footer section starts here */
+.footer{
+  margin-top:6vw;
+  width:100%;
+  height:15vw;
+  
+}
+/* Section 1 under footer */
+.footer1{
+  width:70%;
+  height:15vw;
+  float:left;
+  padding-top:3vw;
+  padding-left:10vw;
+}
+/* All the social media icons */
+.footer1>i{
+  padding:1vw;
+  color:grey;
+  font-size:1vw;
+}
+/* All the navbar links*/
+.footer a{
+  padding:1vw;
+  font-size:1vw;
+  color:grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:0.8vw;
+}
+/* Support section */
+.support{
+  padding-top:1.5vw;
+  padding-left:1vw;
+  color:grey;
+  font-size:1vw;
+  font-family:Arial, Helvetica, sans-serif;
+}
+/* Logo of webpage in footer */
+.logo2{
+  margin-left:12vw;
+  padding-top: 3vw;
+  float:left;
+  font-size: 3.5vw;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* company title*/
+.cc2{
+  padding-top:4.2vw;
+  padding-left: 84.2vw;
+  font-size: 1.5vw;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* All rights reserved */
+.rights{
+  float:left;
+  width:21%;
+  font-size:0.9vw;
+  color:grey;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+}
+
+/* media for tabelt with max with as 768px*/
+  @media (max-width: 768px)
+ {
+   /* Placing a company logo*/
+  .logo1{ 
+    margin-top: 2vw;
+    margin-left: 7vw;
+    font-size: 6vw;
+  }
+  /* Company title*/
+  .cc1{
+    padding-top: 1.8vw;
+    margin-left: 0.5vw;
+    font-size: 3vw;
+    margin-top: 2vw;
+  }
+  /* Description about company */
+  .title>p{
+    font-size:2vw;
+  }
+  /* Heading with largest font size */
+  .title>h1{
+    font-size:4vw;
+  }
+  /* Fastest amd easiest way */
+    .fastest{
+      margin-top:8vw;
+    }
+    /* Displaying the toggle bar*/
+    .checkbtn{
+    display: block;
+  }
+  /* Nabar section */
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  /* Display navigation links on clicking on toggle bar */
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+    
+  }
+/* On hover effect  on navigation links */
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+
+  nav ul li a{
+    font-size: 2vw;
+  }
+  /* Title an quotes in full width */
+  .titleandquote{
+    width:100%; 
+}
+.para{
+  width:200%;
+}
+/* Google play and apple store icons */
+.apple,.gplay{
+  font-size:1.5vw;
+  width:40%;
+  
+}
+/* Free registration form */
+.freeregistration{
+  width:100%;
+ 
+}
+.freereg{
+   font-size: 2.5vw;
+}
+.freeregistration>form{
+  margin-left: 5vw;
+  width:90%;
+}
+/* Place holder for required input type */
+.firstname,.lastname,.email,.phone::placeholder{
+  font-size:2vw;
+}
+/* Setting first name input in a single line */
+.freeregistration>form>fieldset>.firstname{
+  margin-left: 3.3vw;
+  width:46%;
+  margin-top: 1.5vw;
+}
+.freeregistration>form>fieldset>.email,.freeregistration>form>fieldset>.phone{
+  width:91%;
+  height:40px;
+  margin-left: 3.5vw;
+}
+.freeregistration>form>fieldset>.open{
+  width:91%;
+  margin-left: 3.2vw;
+}
+/* Select element to select a country in a registration */
+.select{
+padding-left:1vw;width:91%; margin-left: 3.2vw;
+}
+/* Open account button */
+input[value="OPEN ACCOUNT"]{
+  font-size:2vw;
+}
+/* Accept terms and conditions */
+.accept{
+  font-size:1.8vw;
+  padding-left: 23vw;
+}
+/* Crytocurrency symbols */
+.one,.two,.three,.four,.five,.six>i{
+  padding-top:3vw;
+  font-size: 4vw;
+}
+.one>i>p,.two>i>p,.three>i>p,.four>i>p,.five>i>p,.six>i>p{
+  font-size: 1.5vw;
+}
+/* About us section starts here*/ 
+.aboutus{
+  margin-top: 60vw;
+}
+/* About us description */
+.aboutus>p{
+  font-size: 2.5vw;
+}
+/* First section in about us */
+.aboutusone{
+  font-size: 1.5vw;
+}
+/* Second section in about us */
+.aboutustwo{
+  font-size: 2vw;
+}
+/* Easy to buy section starts here */
+.easytobuy{
+  margin-top: 5vw;
+}
+/* Easy to buy heading */
+.easytobuy>h2{
+  padding-top: 8vw;
+  font-size: 2.5vw;
+}
+/* All threr features of easy to buy  */
+.register,.deposit,.buyandsell{
+  width:100%;
+  height:12vw;
+}
+.arrowright{
+  float: none ;
+  margin-top: 2vw;
+   margin-left: 25vw;
+  transform: rotate(90deg);  
+}
+/* All three features set to 100% width */
+.reg1{
+  width:100%;
+  padding-left:25vw;
+  display: block;
+  font-size: 2.2vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Why choose us section starts here */
+.whychooseus{
+  margin-top: 35vw;
+  font-size: 2.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 8vw;
+  padding-top: 7vw;
+
+}
+/* All the features to choose this website */
+.fair,.fast,.secure,.multicoin,.onlinepayment,.legal,.commisions,.withdraw{
+  float:left;
+  width:50%;
+  height:25vw;
+}
+/* Description of all the features */
+.lorem{
+  font-size:1.5vw;
+  padding-right: 2vw;
+}
+.withdraw>.lorem{
+  font-size:1.5vw;
+  padding-right: 2vw;
+}
+.withdraw>i{
+  padding-left:25vw;
+}
+
+/* How to buy and sell cryptocurrency section starts here */
+.btc{
+  margin-left:10%;
+  width:80%;
+  background-color: blue;
+  height:30vw;
+}
+.howtobuysell{
+  width:80%;
+margin-right:10vw;
+height:25vw;
+}
+/* Heading */
+.howtobuysell>h3{
+  font-size:2.5vw;
+  font-family:Arial, Helvetica, sans-serif;
+}
+/* Description of how to buy */
+.howtobuysell>p{
+  font-size:1.5vw;
+  font-family:Arial, Helvetica, sans-serif;
+}
+/* Portfolio section starts here */
+.portfolio>h3{
+  font-size: 2.5vw;
+  margin-top: 170vw;
+}
+/* All three features of portfolio */
+.portfolios{
+  height:35vw;
+}
+/* Sample dashboard image */
+.dashboard{
+  height:35vw;
+}
+/* Buy crypto currency section starts here */
+.buycryptocurrency>h2{
+  font-size: 2.5vw;
+}
+.buycryptocurrency>h4{
+  font-size: 1.5vw;
+}
+/* Description */
+.buycryptocurrency>p{
+  font-size: 1.5vw;
+}
+/* Achievemnts section starts here */
+.achievements{
+  margin-top:20vw;
+}
+/* Testimonial section starts here */
+.testimonial>h3{
+  font-size: 2.5vw;
+}
+/* Frequently asked question section starts here */
+.faq>h2{
+  font-size: 2.5vw;
+}
+.faq{
+  background-color:  rgb(173, 169, 169);
+  width:100%;
+  height:60vw;
+}
+/* Contact us sectio starts here */
+.contactus>h4{
+  font-size: 3vw;
+}
+/* Placeholder for all the input type */
+.contactus>input::placeholder{
+  font-size: 2vw;
+}
+/* Submit button */
+.contactus>input[type="button"]
+{
+font-size: 2vw;
+padding:1vw 2vw;
+margin-left: 40%;
+width:20%;
+}
+/* Footer section starts here */
+.footer>.footer1>i{
+  font-size: 2vw;
+}
+/* all the navbar links*/
+.footernav>a{
+  font-size: 1.5vw;
+}
+/* Suuport call or email */
+.support{
+  font-size: 2vw;
+}
+/*logo of a company*/
+.logo2{
+  font-size: 6vw;
+  margin-left: 8vw;
+}
+/* Company title in footer */
+.cc2{
+  font-size: 3vw;
+  margin-left:-1vw;
+  padding-top: 4.5vw;
+}
+/* All rights reserved */
+.rights{
+  font-size: 1.5vw;
+  margin-left: 7vw;
+  text-align: center;
+}
+}
+
+/* Media query for mobile pixel upto 425px */
+  @media (max-width:425px){
+    /* Display toggle bar */
+  .checkbtn{
+    display: block;
+    padding-top: 1vw;
+  }
+  /* Logo of a website */
+  .logo1{
+    padding-top: 1vw;
+    font-size: 12vw;
+  }
+  /* Title of a company */
+  .cc1{
+    padding-left: 3vw;
+    padding-top: 5vw;
+    font-size: 6vw;
+  }
+  /*All navigation links place in unordered list*/
+  ul{
+    width: 100%;
+    height: 100%;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  /* Individual navbar */
+  nav ul li a{
+    font-size: 5vw;
+  }
+  /* On hover effect on each navbar */
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  /* Large and desription about website */
+  .titleandquote{
+    width:130%;
+    height:240vw;
+    padding-top:20vw; 
+}
+/*Description*/
+.title>p{
+  font-size: 4vw;
+  width:200%;
+}
+/* Apple store and google play store icons */
+.apple,.gplay{
+  width:48.2%;
+  font-size: 3vw;
+}
+.fa-apple,.fa-android{
+  font-size: 8vw;
+}
+/* Select element in free registration form */
+.select{
+  font-size:4vw;
+}
+
+.title>h1{
+  font-size: 6vw;
+}
+.para{
+  width:100%;
+}
+/* Width of a registration form */
+.freeregistration{
+  width:100%;
+}
+/* Font size of registration form elements */
+.freereg{
+  font-size: 5vw;
+}
+.freeregistration>form{
+ margin-left: 5vw;
+ width:90%;
+
+}
+/* Required place holder for input type text */
+.firstname,.lastname,.email,.phone::placeholder{
+ font-size:4vw;
+}
+/* First name in single line of a form */
+.freeregistration>form>fieldset>.firstname{
+ margin-left: 3.3vw;
+ width:91%;
+ margin-top: 1.5vw;
+}
+/* last name in single line of a form */
+.freeregistration>form>fieldset>.lastname{
+  margin-left: 3.3vw;
+  width:91%;
+  margin-top: 5vw;
+ }
+.freeregistration>form>fieldset>.email,.freeregistration>form>fieldset>.phone{
+ width:91%;
+ height:40px;
+ margin-left: 3.5vw;
+}
+/* Open account button */
+.freeregistration>form>fieldset>.open{
+ width:91%;
+ margin-left: 3.2vw;
+}
+/* Select tag to select a country */
+.select{
+padding-left:1vw;width:91%; margin-left: 3.2vw;}
+input[value="OPEN ACCOUNT"]{
+ font-size:4vw;
+}
+/* Accept terms and conditions */
+.accept{
+ font-size:4vw;
+ padding-left: 23vw;
+}
+/* All the cryptocurrency symbols */
+.one,.two,.three,.four,.five,.six{
+  width: 50%;
+  color:orange;
+  display:block;
+  height:35vw;
+  background-color: white;
+  float: left;
+  padding-top: 5vw;
+  font-size: 12vw;
+  border:none;
+  padding-left: 25vw;
+  }
+.six>i{
+  padding-top: 0.1vw;
+  margin-left: 1vw;
+  font-size: 12vw;
+}
+/* required cryptocurrency symbol icons from font awsome */
+.one>i>p,.two>i>p,.three>i>p,.four>i>p,.five>i>p,.six>i>p{
+  padding-top: 2vw;
+  font-size: 4vw;
+}
+.usd{
+  font-size: 3.5vw;
+  color:black;
+}
+/* About us section starts here */
+.aboutus{
+  margin-top: 100vw;
+}
+/* About us heading */
+.aboutus>p{
+  padding-left: 25vw;
+  font-size: 5vw;
+}
+/* About us first section */
+.aboutus>.aboutusone{
+  width:120%;
+  font-size: 4vw;
+}
+/* About us second section */
+.aboutus>.aboutustwo{
+  margin-left: 5vw;
+  width:120%;
+  font-size: 5vw;
+  text-align: justify;
+}
+/* Easy to buy section starts here */
+.easytobuy{
+  margin-top: 95vw;
+  width:130%;
+  height:9vw;
+}
+/* Easy to buy heading */
+.easytobuy>h2{
+  font-size: 5vw;
+margin-left: 10vw;
+}
+/* Features */
+.reg1{
+  font-size: 4vw;
+}
+/* register */
+.easytobuy>.register
+{
+  padding-top: 15vw;
+  
+padding-left:20vw;
+ width:100%;
+}
+/* Deposit */
+.easytobuy>.deposit
+{
+  padding-top: 25vw;
+  padding-left:20vw;
+ width:100%;
+}
+/* Buy and sell */
+.easytobuy>.buyandsell{
+  padding-top: 25vw;
+padding-left:20vw;
+ width:100%;
+}
+/* Number before any features */
+.num{
+  font-size:7vw;
+}
+/* Arrow icons */
+.arrowright{
+  font-size: 8vw;
+  margin-left: 23vw;
+}
+.regyr,.trad{
+  padding-left:5vw;
+}
+.regno{
+  font-size: 4vw;
+}
+/* Why choose us section starts here */
+.wcu{
+  widows: 130%;
+  height: auto;
+}
+/* Description on each feature */
+.wcu>p{
+  margin-top: 120vw;
+  font-size: 5vw;
+  width:130%;
+  height: 10vw;
+}
+/* Assigning all why choose us features */
+.fair,.fast,.secure,.multicoin,.onlinepayment,.legal,.commisions,.withdraw{
+  float:left;
+  width:130%;
+  height:45vw;
+  font-size: 5vw;
+}
+/* All required icons for features */
+.fair>.icons>i,.fast>.icons>i,.secure>.icons>i,.multicoin>.icons>i,.onlinepayment>.icons>i,.legal>.icons>i,.commisions>.icons>i{
+  font-size: 10vw;
+     color:transparent;
+     -webkit-text-stroke-width: 0.5vw;;
+      margin-top: 2vw;
+  
+}
+.withdraw>i{
+  padding-left:62vw;
+  font-size: 10vw;
+     color:transparent;
+     -webkit-text-stroke-width: 0.5vw;;
+      margin-top: 2vw;
+}
+.withdraw>p{
+  font-size: 5vw;
+}
+/* Feature description */
+.fair>.lorem,.fast>.lorem,.secure>.lorem,.multicoin>.lorem,.onlinepayment>.lorem,.legal>.lorem,.commisions>.lorem,.withdraw>.lorem{
+  font-size:4vw;
+  margin-top: 3vw;
+  padding:0 15vw 0 15vw;
+ 
+}
+/* How to buy and sell crypto currency starts here */
+video{
+  height: 60vw;
+}
+.howtobuysell{
+  padding-top: 30vw;
+  text-align: justify;
+}
+/* My portfolio section starts here */
+ .portfolio>h3{
+  margin-top:560vw;
+  padding-top: 12vw;
+  height:18vw;
+  width:130%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:  rgb(199, 193, 193);
+  font-size: 5vw;
+  text-align: center;
+}
+/* Portfolio all three features */
+.portfolios{
+  padding-top: 10vw;
+  padding-left:8vw;
+  width:130%;
+  height:120vw;
+  text-align: left;
+}
+/* Manage vault mobile app all icons */
+.manage>i{
+  padding: 2.5vw;
+  font-size: 10vw;
+  width:15vw;
+  height:15vw;
+}
+.manage>.fa-mobile{
+  padding-left:4.5vw;
+}
+/* Heading of all three features */
+.manage>h5{
+  padding-top: 7vw;
+  font-size: 4.5vw;
+  margin-left: 12vw;
+}
+/* Description about all features*/
+.manage>p{
+  font-size: 4vw;
+  margin-top: 7vw;
+  padding-bottom: 3vw;
+}
+/* Sample dashboard image */
+.dashboard{
+height:90vw;
+  margin-right: -30vw;
+  width: 130%;
+}
+.dashboard>img{
+ padding-left: 10vw;
+ width:90%;
+ height:75vw;
+}
+/* Buy cryptocurrency section */
+.buycryptocurrency{
+  margin-top: 220vw;
+  width:130%;
+}
+/* Heading */
+.buycryptocurrency>h2{
+  font-size: 5vw;
+}
+.buycryptocurrency>h4{
+  padding-top: 14vw;
+  font-size: 4vw;
+  font-weight: bold;
+}
+/* Description on buy cryptocurrency */
+.buycryptocurrency>p{
+  font-size: 3vw;
+  padding-top: 4vw;
+  padding-left:15vw;
+  padding-right: 15vw;
+}
+.btc {
+    margin-left: 26vw;
+    background-color: green;
+}
+
+.howtobuysell{
+  padding-left: 18vw;
+}
+.howtobuysell>h3{
+  font-size: 5vw;
+}
+.howtobuysell>p{
+  font-size: 4vw;
+  width:130%;
+}
+/* Converting of cryptocurrnecy */
+.convert{
+  margin-top:10vw;
+  margin-left: 14vw;
+  width:80%;
+  height:20vw;
+}
+/* Input type as text */
+.btcone,.btcusd{
+  height: 11vw;
+  margin-left:4vw
+}
+/* Placeholder for input type */
+.btcone::placeholder{
+  font-size: 5vw;
+}
+.convert>form>input{
+  margin-left:2.5vw;
+  margin-top: 4vw;
+  padding-top:5vw;
+  width:25%;
+}
+.btcusd::placeholder{
+  font-size: 5vw;
+}
+/* BTC name */
+.btcname{
+  font-size: 4vw;
+  margin-left: 2vw;
+}
+/* Buy now button */
+input[value="Buy Now"]{
+  font-size: 4vw;
+  margin-top:10vw;
+  padding: 2vw 5vw;
+  margin-left:50vw;
+}
+/* Enter the mobile number */
+.mob{
+  margin-left: 25vw;
+  height:8vw;
+  width:40%;
+}
+.buycryptocurrency>.tradeon{
+  font-size: 5vw;
+}
+input[placeholder="Enter Your Mobile Number"]{
+  font-size: 3vw;
+}
+.getstart{
+  height:8vw;
+  width:20%; 
+}
+/* Get started button */
+input[value="Get Started"]{
+  font-size: 3vw;
+}
+/* Achievement section starts here */
+.achievements{
+  width:130%;
+  margin-top:100vw;
+  height:160vw;
+  display: flex;
+  flex-direction: column;
+}
+/* Title of .achievements */
+.achievements>h2{
+  font-size: 6vw;
+}
+.achievements>h2>p{
+  font-size: 4vw;
+}
+/* Testimonial section starts here */
+.testimonial>h3{
+  margin-top: 10vw;
+  font-size: 5vw;
+  width:130%;
+}
+/* Testimonial */
+.testimonial>.test1{
+  width:130%;
+  font-size: 4vw;
+}
+/* Testtimonial author */
+.testimonial>.test1>p{
+  font-size: 4vw;
+  margin-left: 10vw;
+}
+.testimonial>.test2>i{
+  margin-left: 45vw;
+  margin-top: 10vw;
+  padding:2.5vw;
+  width:10vw;
+  height:10vw;
+  font-size: 5vw;
+  color:white;
+}
+.testimonial>.test2{
+  width:130%;
+  font-size: 4vw;
+}
+.testimonial>.test2>p{
+  margin-left: 38vw;
+  margin-top:2vw;
+}
+.testimonial>.test2>.bitcoinbuyer{
+  font-size: 3vw;
+  color:black;
+  margin-left: 40vw;
+}
+.testimonial>form{
+  margin-top:60vw;
+  margin-left: 50vw;
+}
+/* Frequently asked question starts here */
+.faq{
+  margin-top: 60vw;
+  background-color:  rgb(173, 169, 169);
+  width:130%;
+  height:120vw;
+  padding-top:6vw;
+}
+/* FAQ heading */
+.faq>h2{
+  font-size: 5vw;
+}
+/* All FAQ questions */
+.ico>h4{
+  font-size: 4vw;
+}
+.ico>i{
+  font-size: 5vw;
+}
+.ico>p{
+  font-size: 4vw;
+}
+/* Contact us section starts here */
+.contactus>h4{
+  margin-top: 10vw;
+  margin-left: 35%;
+  font-size: 5vw;
+}
+/* Contact up text fields */
+.contactus>input{
+  margin-top: 10vw;
+  margin-left: 30%;
+  width:80%;
+}
+.contactus>input::placeholder{
+  font-size: 4vw;
+}
+/* Submit button */
+.contactus>input[type="button"]
+{
+font-size: 4vw;
+padding:2vw 6vw;
+margin-left: 55%;
+width:30%;
+}
+/* Footer section starts here */
+.footer1{
+  width:130%;
+  height:40vw;
+  padding-left: 45vw;
+}
+/* Social media icons */
+.footer>.footer1>i{
+  font-size: 5vw;
+   padding: 3vw;
+}
+/* Navbar */
+.footernav{
+margin-left: -40vw;
+text-align: center;
+}
+.footernav>a{
+  font-size: 3vw;
+}
+/* Support through call or mail */
+.support>p{
+  padding-top: 5vw;
+  font-size: 4vw;
+}
+/* Logo of website */
+.logo2{
+  font-size: 10vw;
+  width:9%;
+  margin-left: 55vw;
+  font-weight: bold;
+}
+/* Website name */
+.cc2{
+  padding-top: 46vw;
+  padding-left:8vw;
+  height: 50vw;
+  font-size: 4vw;
+  font-weight: bold;
+}
+/* All rights reserved */
+.rights{
+  margin-top:2vw;
+  width:100%;
+  margin-left: 20vw;
+  text-align: center;
+  font-size: 3vw;
+}
+}

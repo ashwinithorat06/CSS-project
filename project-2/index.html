@@ -1,0 +1,404 @@
+<!-- ******************************************************************************************************************
++ CSS PROJECT NUMBER  : 2.
++ TITLE               : Cryptocurrency Website
++ START DATE          : 20/03/20.
++ END DATE            : 24/03/20.
++ DESCRIPTION         : craete responsive website related to cryptocurrency which is designed using many features of css involved in it such
+                        as hover effect, video tag, different font awsome icons etc. and also the webpage is made responsive for mob and tablet 
+                        using media query
+************************************************************************************************************************-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Responsive Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font awesome cdnjs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigation bar-->
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <!-- Logo of cryptocurrency -->
+    <div class="logo1">
+      &copy;
+    </div>
+    <div class="cc1">
+      CC-ICO
+    </div>
+    <!-- All the navigation bar links -->
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#feature">Features</a></li>
+      <li><a href="#dash">Dashboard</a></li>
+      <li><a href="#buynow">Buy Now</a></li>
+      <li><a href="#test">Testimonial</a></li>
+      <li><a href="#frequentlyasked">FAQ</a></li>
+      <li><a href="#phone">Contact Us</a></li>
+    </ul>
+  </nav>
+  <!-- The front title and related quotes section -->
+  <div class="titleandquote">
+    <div class="title">
+      <p class="fastest">FASTEST AND EASIEST WAY TO</p>
+      <br>
+      <h1>Buy, Sell, Trade</h1>
+      <br>
+      <p>CRYPTOCURRENCIES</p>
+      <br><br>
+      <P class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis odio, repellat officia
+        voluptatibus, voluptates, rerum repudiandae earum similique et beatae est! Culpa ipsam dignissimos, aperiam eum
+        reprehenderit sunt. Vel, quos.</P>
+      <br><br>
+      <div class="apple"><i class="fab fa-apple" class="icon"></i>
+        <p>Download on the <span style="font-weight: bold;">App Store</span></p>
+      </div>
+      <div class="gplay"><i class="fab fa-android" class="icon"></i>
+        <p>Get it on <span style="font-weight: bold;">Google Play</span></p>
+      </div>
+    </div>
+    <!-- Registration form starts here -->
+    <div class="freeregistration">
+      <form action="get">
+        <p class="freereg">Free Registrations</p>
+        <fieldset>
+          <input class="firstname" type="text" placeholder="FIRST NAME">
+          <input class="lastname" type="text" placeholder="LAST NAME">
+          <br><br>
+          <input class="email" type="email" placeholder="EMAIL">
+          <br><br>
+          <input class="phone" type="number" placeholder="PHONE">
+          <br><br>
+          <select class="select">
+            <option class="india">INDIA</option>
+          </select>
+          <br><br>
+          <input type="button" class="open" value="OPEN ACCOUNT" style="background-color: orange; color:white;">
+          <br><br>
+          <a href="#" class="accept"
+            style="margin-left: 5vw; color: white;font-family: Arial, Helvetica, sans-serif;">Accept <span
+              style="text-decoration: underline; color:blue;">Terms and Conditions</span></a>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  <!-- FontAwsome icons of the crypto currencies -->
+  <div class="one"><i class="fab fa-bitcoin"><br>
+      <p class="usd">8000.50 USD</p>
+    </i></div>
+  <div class="two"><i class="fab fa-monero"><br>
+      <p class="usd">5642.50 USD</p>
+    </i></div>
+  <div class="three"><i class="fab fa-ethereum" class="crthree">
+      <p class="usd">565.25 USD</p>
+    </i></div>
+  <div class="four"><i class="fas fa-lira-sign" class="crfour">
+      <p class="usd">1235.32 USD</p>
+    </i></div>
+  <div class="five"><i class="fas fa-rupee-sign" class="crfive">
+      <p class="usd">456.50 USD</p>
+    </i></div>
+  <div class="six"><i class="fas fa-money-bill" class="crsix">
+      <p class="usd">622.22 USD</p>
+    </i></div>
+  <!-- About us section starts here -->
+  <div id="about"></div>
+  <div class="aboutus">
+    <p>About us</p>
+    <!-- First section in about us -->
+    <div class="aboutusone">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus sed cupiditate, perferendis
+      saepe aspernatur modi! Architecto nam tenetur at voluptas blanditiis quis sequi, sunt mollitia a accusantium
+      officia quod facere?
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. In reiciendis porro debitis maiores ipsum? Reprehenderit
+      odit Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere dolore libero tempore cupiditate autem
+      repudiandae dolores. Voluptatum quibusdam consequuntur quae voluptate ipsum alias possimus accusamus fugit,
+      aliquid, maxime illum minima?
+    </div>
+    <!-- Second section in about us -->
+    <div class="aboutustwo"><span style="color:grey; font-family: Arial, Helvetica, sans-serif;" class="mission">Our
+        Mission</span><br><br>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem similique saepe deleniti at, quod non est ullam sed
+      expedita, corrupti commodi aliquid odio.</div>
+  </div>
+
+  <!-- Easy to buy section starts here -->
+  <div class="easytobuy" id="easy">
+    <h2>Easy to buy crypto currency</h2>
+    <!-- Register -->
+    <div class="register">
+      <p class="reg1"><span class="num">1</span>&nbsp;<span style="color:orange;text-decoration: underline;"
+          class="regyr">Register</span>&nbsp;your<br>&nbsp;<span class="trad">trad account</span></p><i
+        class="fas fa-arrow-circle-right arrowright"></i>
+    </div>
+    <!-- Deposit -->
+    <div class="deposit">
+      <p class="reg1"><span class="num">2</span>&nbsp;<span style="color:orange;text-decoration: underline;"
+          class="regyr">Deposits</span> funds in the <br> &nbsp;<span class="trad">one hours</span></p><i
+        class="fas fa-arrow-circle-right arrowright"></i></p>
+    </div>
+    <!-- Buy and sell -->
+    <div class="buyandsell">
+      <p class="reg1"><span class="num">3</span>&nbsp;<span class="regyr">Start </span><span
+          style="color: orange;text-decoration: underline"> Buy & Sell</span> any<br> &nbsp;<span
+          class="trad">Cryptocurrency</span></p>
+    </div>
+
+  </div>
+  <!-- Why choose us section starts here -->
+  <div class="wcu" id="feature">
+    <p class="whychooseus">Why Choose Us</p>
+    <!-- First feature along with its icon -->
+    <div class="fair" class="wcu">
+      <p>Fair</p>
+      <p class="icons"><i class="fas fa-air-freshener" class="fairone"></i></p>
+      <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quasi sed enim aperiam
+        cumque et eius facere, </p>
+    </div>
+    <!-- Second feature along with its icon -->
+    <div class="fast" class="wcu">
+      <p>Fast</p>
+      <p class="icons"><i class="fas fa-rocket" class="fairone"></i></p>
+      <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quasi sed enim aperiam
+        cumque et eius facere,</p>
+    </div>
+    <!-- Third feature along with its icon -->
+    <div class="secure" class="wcu">
+      <p>Secure</p>
+      <p class="icons"><i class="fas fa-lock" class="fairone"></i></p>
+      <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quasi sed enim aperiam
+        cumque et eius facere,</p>
+    </div>
+    <!-- Fourth feature along with its icon -->
+    <div class="multicoin">
+      <p>Multicoin</p>
+      <p class="icons"><i class="fas fa-coins" class="fairone"></p></i>
+      <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quasi sed enim aperiam
+        cumque et eius facere,</p>
+    </div>
+    <!-- Fifth feature along with its icon -->
+    <div class="onlinepayment">
+      <p>Online Payment</p>
+      <p class="icons"><i class="fas fa-wallet" class="fairone"></i></p>
+      <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quasi sed enim aperiam
+        cumque et eius facere,</p>
+    </div>
+    <!-- Sixth feature along with itsn icon -->
+    <div class="legal">
+      <p>Legal</p>
+      <p class="icons"><i class="fas fa-file-contract" class="fairone"></i></p>
+      <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quasi sed enim aperiam
+        cumque et eius facere,</p>
+    </div>
+    <!-- Seventh feature along with itsn icon -->
+    <div class="commisions">
+      <p>Commisions</p>
+      <p class="icons"><i class="fas fa-percentage" class="fairone"></i></p>
+      <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quasi sed enim aperiam
+        cumque et eius facere,</p>
+    </div>
+    <!-- eight feature along with itsn icon -->
+    <div class="withdraw">
+      <p>Withdraw</p><i class="fas fa-envelope-open-text" class="fairone"></i>
+      <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quasi sed enim aperiam
+        cumque et eius facere,</p>
+    </div>
+  </div>
+
+  <!-- How to buy sell crypto currency section which contains video -->
+  <div class="btc">
+    <video width="100%" height="100%" controls poster="image.png" style="border-radius: 10px;">
+      <source src="linked.MKV">
+    </video>
+  </div>
+
+  <div class="howtobuysell">
+    <h3>How to buy sell <br> Crypto Currency?</h3>
+    <p><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae hic et soluta vel praesentium nemo
+      accusamus ipsa, voluptas at enim accusantium temporibus dolores nihil cumque repellat rem quod nam sit!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptates neque expedita quas, dolorem fugit odit
+      corporis ad pariatur dolore repudiandae ab magnam id totam consequuntur autem.<br><br> voluptate laudantium
+      minima?Delectus quas modi odio eaque assumenda facilis inventore.</p>
+  </div>
+
+  <!-- Portfolio Section -->
+  <div class="portfolio">
+    <h3>Create your portfolio</h3>
+  </div>
+
+
+  <div class="portfolios" id="dash">
+    <!-- Manage -->
+    <div class="manage"><i class="fas fa-briefcase"></i>
+      <h5>Manage Portfolio</h5>
+      <p>Loreum ipsum is simply dummy text of the printing and typesetting industry</p>
+    </div>
+    <!-- Vault protection -->
+    <div class="manage"><i class="fas fa-shield-alt"></i>
+      <h5>Vault Protections</h5>
+      <p>Loreum ipsum is simply dummy text of the printing and typesetting industry</p>
+    </div>
+    <!-- Mobile App -->
+    <div class="manage"><i class="fas fa-mobile"></i>
+      <h5>Mobile App</h5>
+      <p>Loreum ipsum is simply dummy text of the printing and typesetting industry</p>
+    </div>
+  </div>
+  <!-- Sample dashboard image under portfolio -->
+  <div class="dashboard">
+    <img src="canadian-crypto-coinbase-portfolio-1200x675.jpg" alt="">
+  </div>
+
+  <!-- Buy crypto currency section -->
+  <div class="buycryptocurrency" id="buynow">
+    <h2>Buy Cryptocurrency</h2>
+    <h4>Buy and sell Coins at the CC-ICO<br>without additional fees</h4>
+    <p>Buy now and get +40% extra bonus Minimum pre-sale amount 25 Cryptic Coin. We accept BTC crypto-currency</p>
+    <!-- Convertion area is created -->
+    <div class="convert">
+      <form>
+        <input type="text" class="btcone" placeholder="1"><i class="btcname">BTC =</i>
+        <input type="text" class="btcone" placeholder="856413.00">
+        <input type="text" class="btcusd" placeholder="USD">
+      </form>
+    </div>
+    <form>
+      <input type="button" value="Buy Now" class="buynow">
+    </form>
+    <p class="tradeon">Trade on the go download the app</p>
+    <br><br>
+    <input class="mob" placeholder="Enter Your Mobile Number" />
+    <input type="button" value="Get Started" class="getstart">
+  </div>
+
+  <!-- achievements section -->
+  <div class="achievements">
+    <h2>56423<br><br>
+      <p>$ Transaction per day</p>
+    </h2>
+    <h2>10<br><br>
+      <p>Year of Experience</p>
+    </h2>
+    <h2>235125<br><br>
+      <p>Registered Users</p>
+    </h2>
+    <h2>24<br><br>
+      <p>Award Winning</p>
+    </h2>
+  </div>
+
+  <!-- Testimonial section -->
+  <div class="testimonial" id="test">
+    <h3>Testimonial</h3>
+    <div class="test1">
+      <p>CC-ICO is a great place to exchange or buy any cryptocurrency. They provide very quick sevice and trasctions
+        are also too fast
+
+      </p>
+    </div>
+    <div class="test2"><i class="fas fa-quote-left"></i>
+      <p>Harshad Patel</p>
+      <p class="bitcoinbuyer">Bitcoin Buyer </p>
+    </div>
+    <form>
+      <input type="radio" name="selection" class="slide">
+      <input type="radio" name="selection">
+      <input type="radio" name="selection">
+    </form>
+  </div>
+
+  <!-- FAQ section -->
+  <div class="faq" id="frequentlyasked">
+    <h2>Frequently asked questions</h2>
+    <br><br><br>
+    <!-- Arrow icons -->
+    <div class="ico">
+      <i class="fas fa-arrow-circle-up"></i>
+      <!-- Question number 1 -->
+      <h4>What is ICO ?</h4>
+      <br><br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ullam similique doloremque tenetur maxime
+        architecto nihil et fugiat officiis nemo. Qui praesentium dignissimos a doloremque? Recusandae odit architecto
+        consectetur quisquam.</p>
+    </div>
+
+    <div class="ico">
+      <i class="fas fa-arrow-circle-up"></i>
+      <!-- Question number 2 -->
+      <h4>What market says ?</h4>
+      <br><br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ullam similique doloremque tenetur maxime
+        architecto nihil et fugiat officiis nemo. Qui praesentium dignissimos a doloremque? Recusandae odit architecto
+        consectetur quisquam.</p>
+    </div>
+
+    <div class="ico">
+      <i class="fas fa-arrow-circle-up"></i>
+      <!-- Question number 3 -->
+      <h4>What is Crypto currency ?</h4>
+      <br><br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ullam similique doloremque tenetur maxime
+        architecto nihil et fugiat officiis nemo. Qui praesentium dignissimos a doloremque? Recusandae odit architecto
+        consectetur quisquam.</p>
+    </div>
+  </div>
+
+  <!-- Contact us section -->
+  <div class="contactus" id="phone">
+    <h4>Contact us</h4>
+    <input type="text" placeholder="Your Name">
+    <br>
+    <input type="email" placeholder="Your Email">
+    <br>
+    <input type="text" placeholder="Write Message Here..">
+    <br>
+    <input type="button" value="Submit">
+    <br>
+  </div>
+
+  <!-- Footer section -->
+  <div class="footer">
+    <!-- Social media icons -->
+    <div class="footer1">
+      <i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i><i class="fab fa-google-plus-g"></i><i
+        class="fab fa-linkedin-in"></i><i class="fab fa-instagram"></i>
+      <!-- Navigation links in footer -->
+      <div class="footernav">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">FEATURES</a>
+        <a href="#">DASHBOARD</a>
+        <a href="#">BUY NOW</a>
+        <a href="#">TESTIMONIAL</a>
+        <a href="#">FAQ</a>
+        <a href="#">CONTACT US</a>
+        <!-- support -->
+        <div class="support">
+          <p><i class="far fa-envelope"></i>&nbsp;supports@websitename.com&nbsp;&nbsp;&nbsp;<i
+              class="fas fa-phone-alt"></i>+01(1234)234 9856</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Logo -->
+    <div class="logo2">
+      &copy;
+    </div>
+    <div class="cc2">
+      CC-ICO
+    </div>
+    <p class="rights">&copy;2018 CC-ICO All Rights Reserved.<br>Design by Awaiken</p>
+  </div>
+
+</body>
+
+</html>
